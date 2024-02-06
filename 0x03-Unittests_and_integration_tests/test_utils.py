@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """ Function Generic """
 import unittest
+from utils import access_nested_map, get_json, memoize
 from parameterized import parameterized
-from utils import access_nested_map
 from typing import Any, Tuple, Dict
 from unittest.mock import patch, Mock
-from utils import get_json
-from utils import memoize
 
 
 class TestAccessNestedMap(unittest.TestCase):
